@@ -53,6 +53,19 @@
   &__burger {
     display: none;
   }
+  &__logout-btn {
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    transition: all 0.3s ease-in;
+  }
+  &__logout-btn:hover {
+    background-color: #fff;
+    color: #242424;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+  }
 }
 .nav-menu {
   display: grid;

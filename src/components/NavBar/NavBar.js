@@ -26,7 +26,7 @@ export default function NavBar() {
   return (
     <nav className="navbar">
       <div className="navbar__container">
-        <Link to="/" className="navbar__logo" onClick={closeMobileMenu}>
+        <Link to="/home" className="navbar__logo" onClick={closeMobileMenu}>
           TRLV <i className="fab fa-typo3"></i>
         </Link>
         <div className="navbar__burger" onClick={handleClick}>
@@ -35,7 +35,7 @@ export default function NavBar() {
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="navbar__item">
             <NavLink
-              to={"/"}
+              to={"/home"}
               className="navbar__links navbar--links"
               onClick={closeMobileMenu}
             >
@@ -64,13 +64,18 @@ export default function NavBar() {
             <NavLink
               to={"/sign-up"}
               className="navbar__links-mobile navbar--link-mobile"
+              id="logOutChange"
               onClick={closeMobileMenu}
             >
-              Sign Up
+              LOG OUT
             </NavLink>
           </li>
         </ul>
-        {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
+        {button && (
+          <Link to={"/sign-up"}>
+            <button className="navbar__logout-btn">LOG OUT</button>
+          </Link>
+        )}
       </div>
     </nav>
   );

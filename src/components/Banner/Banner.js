@@ -24,14 +24,12 @@ function Banner() {
         >
           GET STARTED
         </Button>
-        <Button
-          className="btn"
-          buttonStyle="btn--primary"
-          buttonSize="btn--large"
-        >
-          WATCH TRAILER
-          <i className="far fa-play-circle" />
-        </Button>
+        <a href="https://youtu.be/_E1Q0KHs_Is">
+          <button target="_blank" className="btn btn-trailer">
+            WATCH TRAILER
+            <i className="far fa-play-circle" />
+          </button>
+        </a>
       </div>
     </div>
   );

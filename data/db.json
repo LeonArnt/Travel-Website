@@ -2,38 +2,81 @@
   "blogs": [
     {
       "id": 1,
-      "src": "../../assets/Images/img-9.jpg",
+      "imagePath": "https://cdn.shopify.com/s/files/1/0019/7479/6358/files/costa-rica-honeymoon-rio-celeste.jpg",
       "text": "Explore the hidden waterfall deep inside the Amazon Jungle",
-      "label": "Adventure",
-      "path": "/services"
+      "label": "Adventurous",
+      "location": "Amazon Jungle",
+      "path": "/locations",
+      "description": "Our tour plans have been designed to maximize your experience in the Amazon. We offer natural settings with activities to match—an unforgettable experience full of adventure in close contact with the locals and with our beautiful landscapes. With our company, you can experience the diversity that the jungle has to offer and can even visit two distinct ecosystems in one tour plan, with ample time to discover and explore both regions."
     },
     {
       "id": 2,
-      "src": "../../assets/Images/img-2.jpg",
+      "imagePath": "https://eastnessproductions.com/v2/wp-content/uploads/2019/03/SS-3-scaled.jpg",
       "text": "Travel through the Islands of Bali in a Private Cruise",
-      "label": "Luxury",
-      "path": "/services"
+      "label": "Luxurious",
+      "location": "Bali",
+      "path": "/locations",
+      "description": "Welcome to the World's Most Famous Instagramable Spot, Nusa Penida Island. We are happy to welcome you to Nusa Penida Island. We include here the Nusa Penida Tour Package & Motorbike Rental with us you will visit many interesting places, and for your own convenience the trip can be tailored to your request."
     },
     {
       "id": 3,
-      "src": "../../assets/Images/img-3.jpg",
+      "imagePath": "https://www.sailing-classics.com/fileadmin/images/reisen_reviere/Reviere/Atlantik/M_atl_kairos.jpg",
       "text": "Set Sail in the Atlantic Ocean visiting Uncharted Waters",
-      "label": "Mystery",
-      "path": "/services"
+      "label": "Mysterious",
+      "location": "Atlantic Ocean",
+      "path": "/locations",
+      "description": "Find 2021/2022 / 2023 transatlantic voyages here where you can join as hands on guest crew (experience levels vary from none to lots) on planned journeys and rallies like the ARC, or if you’d like to charter a whole boat then get in touch. We work with a network of many incredible boats from luxury yachts, performance racers to historic traditional tall ships."
     },
     {
       "id": 4,
-      "src": "../../assets/Images/img-4.jpg",
-      "text": "Experience Football on Top of the Himilayan Mountains",
-      "label": "Adventure",
-      "path": "/services"
+      "imagePath": "https://i.pinimg.com/736x/d3/9d/2f/d39d2f5436d779076ba6f5f1c0ee63b6.jpg",
+      "text": "Experience Football on Top of the Himalayan Mountains",
+      "label": "Adventurous",
+      "location": "Himalayan Mountains",
+      "path": "/locations",
+      "description": "Join this technical climbing course in one of the most iconic places for any mountaineering adventure: the Himalayas. It will take place over five different peaks. Thus, it will give you the opportunity to practice different techniques. This technical mountaineering course is similar to an IFMGA/NNMGA course. We will cover climbing in different terrains, including rock, snow, and ice. Also, we’ll learn about crevasse rescue. And we’ll go over navigation techniques. Additionally, we’ll review different uses of ropes, knots and bolts. Finally, we will practice placing rock and snow anchors, and varied belaying techniques. The course is perfect for climbers with previous mountaineering and/or trekking experience. During our expedition, the climbing objectives will be Island Peak (Imja Tse), standing at 6,189 meters. Also, we’ll climb Lobuje East (6,100m) in the Khumbu Valley.  And we’ll ascend Chhukung Ri and Kala Pathar too."
     },
     {
       "id": 5,
-      "src": "../../assets/Images/img-8.jpg",
+      "imagePath": "https://ttand.imgix.net/photo-1489493585363-d69421e0edd3-1591364670860.jpeg",
       "text": "Ride through the Sahara Desert on a guided camel tour",
-      "label": "Adrenaline",
-      "path": "/services"
+      "label": "Fascinating",
+      "location": "Sahara Desert",
+      "path": "/location",
+      "description": "Our travel agency is one of the leading travel agencies in Morocco run by a group of professional people with valuable experience speaking various languages. As a renowned and well-performing travel agency, we have developed trust and credibility among our clients over the years sharing knowledge, insights of Moroccan destinations and satisfying different budgets and travel availabilities. Most of our trekking team members have already worked with the large international adventure companies, bringing the best experiences to our local company."
+    },
+    {
+      "imagePath": "img-12.jpg",
+      "label": "Fascinating",
+      "text": "Explore the thrilling adventures Alaska has to offer form snowmobiles to warming up in natural hot springs",
+      "location": "Alaska ",
+      "path": "/location",
+      "id": 6,
+      "description": "Stay at a convenient location in Fairbanks, ideal for exploring the area without having to drive too far for daily activities. Enjoy three days of personalized outdoor activities. Make your days as intense as you want—whether you want something laid back and kid-friendly, or you hope to trek for miles to mountain peaks and remote glaciers. Find the best local treats along the way, including pastries, soups, seafood, and more. "
+    },
+    {
+      "imagePath": "img-10.jpg",
+      "label": "Luxurious",
+      "text": "Discover the magic and mystery of the Aloha State on one of Hawaii’s best islands: Maui!",
+      "location": "Hawaii",
+      "id": 8,
+      "description": "You'll adventure and you'll explore other-wordly landscapes atop ancient volcanoes and black sand beaches; adventure along lush, verdant ridgelines with sweeping vistas; snorkel and kayak with sea turtles, whales and vibrant fish; feel the connection with nature while taking in the stunning beauty of ancient pools and epic waterfalls; and of course catch some of the best waves in the world! An awesome family or spontaneous friends getaway, we’ve packed in all the best that Maui has to offer.  "
+    },
+    {
+      "imagePath": "img-14.jpg",
+      "label": "Adventurous",
+      "text": "Trek the classic 26 mile inca trail route over 4 days as a part of a group",
+      "location": "Peru",
+      "id": 9,
+      "description": "The government has sanctioned a small portion of the thousands of miles of Inca Trail preserved for this trek. This popular classic route is 26 miles and takes 4-days. Due to the altitude of this trek, it is highly recommended that you spend at least 2 days for acclimatization at higher altitudes. You may consider our Inca trail with rainbow mountain and Humantay lake trip option for adequate prior acclimatization. The cancellation policy for this trip varies from our standard cancellation policy. Please see the FAQs for the cancellation policy specific to this trip."
+    },
+    {
+      "imagePath": "img-13.jpg",
+      "label": "Mysterious",
+      "text": "Wander through some of New Mexico’s best hiking, and enjoy a weekend of Southwest style adventure, based out of US’s oldest capital city: Santa Fe!",
+      "location": "United States",
+      "id": 10,
+      "description": "This is a self-guided trip. We’ll book your accommodations and create a personalized itinerary that’s tailored to your interests and requirements. The price of this trip is for 2 adults and 2 kids, with kids under 12 going free. Known for its eclectic culture, art, and scenery, explore the US’s oldest capital city: Santa Fe! Wander through some of New Mexico’s best hiking, immerse yourself in renown art, and enjoy a weekend of Southwest style adventure. On this trip you will hike the Sangre de Cristo foothills with trails that suit your desired intensity level, as well as explore breathtaking National Monuments with unique land features. Not to be left behind is rounding out the experience with some of Santa Fe’s highly reputable experiences of art and culture. This remarkable town is a traveler's paradise!"
     }
   ]
 }

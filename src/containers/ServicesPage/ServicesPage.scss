@@ -1,0 +1,148 @@
+.services {
+  &__title {
+    font-size: 64px;
+    margin-top: 5rem;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  &__form-wrapper {
+    padding: 4rem;
+    background-color: #242424de;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__form-title {
+    display: flex;
+    justify-content: center;
+    font-size: 42px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+  }
+  &__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    border: 2px solid white;
+    width: 70%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.637);
+    border-radius: 30px;
+  }
+  &__form-labels {
+    font-size: 24px;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+  &__pic-input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    left: -50%;
+  }
+  &__pic-attach {
+    cursor: pointer;
+    border: 1px solid black;
+    transition: all 0.3s ease-in;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+  }
+  &__pic-attach:hover {
+    background-color: #242424;
+    color: white;
+    transition: all 0.3s ease-out;
+  }
+  &__location-input {
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in;
+  }
+  &__location-input:hover {
+    width: 250px;
+    transition: all 0.3s ease-out;
+  }
+  &__select-input {
+    width: 200px;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid #242424;
+    margin-bottom: 3.5rem;
+    transition: all 0.3s ease-in;
+  }
+  &__select-input:hover {
+    color: #fff;
+    background-color: #242424;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+  }
+  &__textarea {
+    width: 75%;
+    max-width: 350px;
+    height: 50px;
+    max-height: 150px;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  &__button {
+    border: 1px solid black;
+    background-color: transparent;
+    padding: 0.5rem 2rem;
+    font-size: 20px;
+    transition: all 0.3s ease-in;
+    border-radius: 10px;
+    background-color: #242424;
+    color: #fff;
+  }
+  &__button:hover {
+    background-color: #242424af;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+  }
+}
+.textarea-overview {
+  height: 80px;
+  width: 450px;
+  max-width: 450px;
+}
+
+@media only screen and (max-width: 1060px) {
+  .services {
+    &__form {
+      width: 80%;
+    }
+    &__form-title {
+      font-size: 32px;
+    }
+    &__form-labels {
+      margin-top: 2rem;
+    }
+    &__title {
+      font-size: 45px;
+    }
+  }
+}
+@media screen and (max-width: 800px) {
+  .services {
+    &__form {
+      width: 95%;
+    }
+    &__form-title {
+      font-size: 27px;
+    }
+    &__form-labels {
+      font-size: 20px;
+    }
+    &__title {
+      font-size: 35px;
+    }
+  }
+}

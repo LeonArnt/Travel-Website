@@ -1,0 +1,197 @@
+.place-link {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  &__image {
+    width: 80%;
+    height: 80%;
+    border-radius: 20px;
+    transition: all 0.3s ease-in;
+    object-fit: cover;
+  }
+  &__image:hover {
+    transform: scale(1.1);
+  }
+
+  &__wrapper {
+    margin-top: -60px;
+    width: 100%;
+    background-color: #242424de;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 4rem;
+  }
+  &__title {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 2rem;
+  }
+  &__difficulty {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    font-size: 17px;
+  }
+  &__overview {
+    font-size: 32px;
+    color: #fff;
+    margin: 2rem 0;
+  }
+  &__overview-description {
+    font-size: 17px;
+    color: #fff;
+    margin-bottom: 3rem;
+  }
+  &__social-icons-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  &__social-icons-wrap {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: #fff;
+  }
+  &__social-icons {
+    color: #fff;
+    margin: 0 1rem;
+    font-size: 20px;
+    transition: all 0.3s ease-in;
+  }
+  &__social-icons:hover {
+    color: #242424de;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+  }
+  &__delete-btn {
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    transition: all 0.3s ease-in;
+    font-weight: bold;
+    font-size: 17px;
+  }
+  &__delete-btn:hover {
+    background-color: white;
+    color: #242424de;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+  }
+  &__label {
+    position: absolute;
+    right: 6%;
+    top: 107%;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+}
+@media screen and (max-width: 1450px) {
+  .place-link {
+    &__image {
+      width: 70%;
+      height: 70%;
+    }
+    &__wrapper {
+      margin-top: -10rem;
+    }
+    &__label {
+      top: 96%;
+    }
+  }
+}
+@media screen and (max-width: 1280px) {
+  .place-link {
+    &__image {
+      width: 75%;
+      height: 60%;
+    }
+    &__wrapper {
+      margin-top: -16rem;
+    }
+    &__label {
+      top: 86%;
+    }
+  }
+}
+@media screen and (max-width: 1100px) {
+  .place-link {
+    &__image {
+      width: 70%;
+      height: 60%;
+    }
+    &__wrapper {
+      margin-top: -20rem;
+    }
+    &__label {
+      top: 79%;
+    }
+  }
+}
+@media screen and (max-width: 1000px) {
+  .place-link {
+    &__image {
+      width: 70%;
+      height: 60%;
+    }
+    &__wrapper {
+      margin-top: -20rem;
+    }
+    &__label {
+      top: 77%;
+    }
+  }
+}
+@media screen and (max-width: 800px) {
+  .place-link {
+    margin-top: 1rem;
+    &__image {
+      width: 110%;
+      height: 63%;
+    }
+    &__image:hover {
+      transform: scale(1.05);
+    }
+  }
+}
+@media screen and (max-width: 700px) {
+  .place-link {
+    margin-top: 1rem;
+    &__image {
+      width: 110%;
+      height: 63%;
+    }
+    &__image:hover {
+      transform: scale(1.05);
+    }
+    &__social-icons-container {
+      display: flex;
+      flex-direction: column;
+    }
+    &__delete-btn {
+      margin-top: 2rem;
+    }
+    &__difficulty {
+      font-size: 15px;
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .place-link {
+    &__difficulty {
+      display: flex;
+      flex-direction: column;
+      font-size: 17px;
+    }
+  }
+}

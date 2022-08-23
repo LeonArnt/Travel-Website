@@ -34,6 +34,17 @@ video {
     margin-top: 32px;
   }
 }
+.btn-trailer {
+  background-color: white;
+  color: #242424;
+  border: 1px solid var(--primary);
+  transition: all 0.3s ease-out;
+  padding: 12px 26px;
+  font-size: 20px;
+}
+.btn-trailer:hover {
+  background-color: rgb(199, 199, 199);
+}
 .btn {
   margin: 6px;
 }
